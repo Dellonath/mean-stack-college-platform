@@ -1,66 +1,68 @@
-# Angular 10 CRUD application example with Web API
+<h1 align="center">
+    College Platform
+</h1>
 
-For instruction, please visit:
-> [Angular 10 CRUD application example with Web API](https://bezkoder.com/angular-10-crud-app/)
+<p align="center">
+    <img width="900px" src="https://user-images.githubusercontent.com/56659549/172209635-2a57a4ec-127f-469a-bd18-45d9e013c3a3.png">
+</p>
 
-More practice:
-> [Angular 10 Pagination example | ngx-pagination](https://github.com/bezkoder/angular-10-pagination-example)
+<h3 align="center">
+    A Educational Platform to manage an College Subjects and Students enrollments
+</h3>
 
-> [Angular 10 File Upload example with progress bar](https://bezkoder.com/angular-10-file-upload/)
+<p>
+    This is a basic Web Application. The focus was to apply the knowledge acquired in my studies in the field of Web Development. Is a basic Web Application to manage College Subjects and Student enrollments, which I implemented and integrated some technologies of MEAN Stack.
+</p>
 
-> [Angular 10 JWT Authentication example with Web Api](https://bezkoder.com/angular-10-jwt-auth/)
+<h2 align="center">
+    MEAN Stack <br>
+</h2>
+<h3 align="center">
+    MongoDB • Express • Angular • NodeJS
+</h3>
 
-Fullstack with Node.js Express:
-> [Angular 10 + Node.js Express + MySQL](https://bezkoder.com/angular-10-node-js-express-mysql/)
+<p align="center">
+    <img width="500px" src="https://user-images.githubusercontent.com/56659549/172208621-bddd53d0-1ffb-464e-be91-5d57764b3544.png">
+</p>
 
-> [Angular 10 + Node.js Express + PostgreSQL](https://bezkoder.com/angular-10-node-express-postgresql/)
+<h2 align="center">
+    Installation
+</h2>
 
-> [Angular 10 + Node.js Express + MongoDB](https://bezkoder.com/angular-10-mongodb-node-express/)
+First of all, clone the project in your machine:
 
-Fullstack with Spring Boot:
-> [Angular 10 + Spring Boot + MySQL](https://bezkoder.com/angular-10-spring-boot-crud/)
+```terminal
+git clone https://github.com/Dellonath/mean-stack-college-platform.git
+```
 
-> [Angular 10 + Spring Boot + PostgreSQL](https://bezkoder.com/angular-10-spring-boot-postgresql/)
+Now, in both frontend and backend folder, execute:
+```terminal
+npm install
+```
 
-> [Angular 10 + Spring Boot + MongoDB](https://bezkoder.com/angular-10-spring-boot-mongodb/)
+Following this, you can run the back-end server:
+```terminal
+npm start
+```
 
-Fullstack with Django:
-> [Angular 10 + Django Rest Framework](https://bezkoder.com/django-angular-10-crud-rest-framework/)
+In another terminal tab, you need start the front-end server:
+```terminal	
+ng serve --port 8081
+```
 
-> [Angular 10 + Django + MySQL](https://bezkoder.com/django-angular-mysql/)
+Finally, you can access the frontend in your browser:
+```terminal
+http://localhost:8081/
+```
 
-> [Angular 10 + Django + PostgreSQL](https://bezkoder.com/django-angular-postgresql/)
 
-Serverless with Firebase:
-> [Angular 10 Firebase CRUD with Realtime Database](https://bezkoder.com/angular-10-firebase-crud/)
 
-> [Angular 10 Firestore CRUD | AngularFireStore](https://bezkoder.com/angular-10-firestore-crud-angularfire/)
+<h2 align="center">
+    Website Preview
+</h2>
 
-Integration (run back-end & front-end on same server/port)
-> [How to Integrate Angular 10 with Node.js Restful Services](https://bezkoder.com/integrate-angular-10-node-js/)
-
-> [How to Integrate Angular with Spring Boot Rest API](https://bezkoder.com/integrate-angular-spring-boot/)
-
-## Development server
-
-Run `ng serve --port 8081` for a dev server. Navigate to `http://localhost:8081/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+<h2>
+    <p align="center">
+        <img src="https://user-images.githubusercontent.com/56659549/172211054-9d789475-3f71-496f-b0e7-edf6e32f657e.png">
+    </p>
+</h2>

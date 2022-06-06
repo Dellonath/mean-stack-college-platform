@@ -4,7 +4,7 @@
       <input
         type="text"
         class="form-control"
-        placeholder="Buscar pelo Código"
+        placeholder="Search by Subject Code"
         [(ngModel)]="code"
       />
       <div class="input-group-append">
@@ -13,13 +13,13 @@
           type="button"
           (click)="searchCode()"
         >
-          Pesquisar
+          Search
         </button>
       </div>
     </div>
   </div>
   <div class="col-md-6">
-    <h4>Disciplinas</h4>
+    <h4>Subjects</h4>
     <ul class="list-group">
       <li
         class="list-group-item"
@@ -32,32 +32,32 @@
     </ul>
 
     <button class="m-3 btn btn-sm btn-danger" (click)="removeAllSubjects()">
-      Remover todas
+      Remove all
     </button>
   </div>
   <div class="col-md-6">
     <div *ngIf="currentSubject">
-      <h4>Disciplina</h4>
+      <h4>Subject</h4>
       <div>
-        <label><strong>Código:</strong></label> {{ currentSubject.code }}
+        <label><strong>Code:</strong></label> {{ currentSubject.code }}
       </div>
       <div>
-        <label><strong>Nome:</strong></label>
+        <label><strong>Name:</strong></label>
         {{ currentSubject.name }}
       </div>
       <div>
-        <label><strong>Carga Horária:</strong></label>
+        <label><strong>Credits:</strong></label>
         {{ currentSubject.credit }}
       </div>
 
       <a class="m-3 btn btn-sm btn-danger" routerLink="/subjects/{{ currentSubject.id }}">
-        Editar
+        Edit
       </a>
     </div>
 
     <div *ngIf="!currentSubject">
       <br />
-      <p>Clique em uma disciplina...</p>
+      <p>Click on a subject...</p>
     </div>
   </div>
 </div>

@@ -50,7 +50,7 @@ export class EnrollmentListComponent implements OnInit {
     this.subjectService.getAll()
       .subscribe(
         data => {
-          this.subjects = data.filter(disciplina => subj_enroll.some(alunoDisc => alunoDisc === disciplina.code))
+          this.subjects = data.filter(subject => subj_enroll.some(studentSubjects => studentSubjects === subject.code))
         },
         error => {
           console.log(error);

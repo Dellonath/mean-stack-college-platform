@@ -38,7 +38,7 @@ export class SubjectDetailsComponent implements OnInit {
       .subscribe(
         response => {
           console.log(response);
-          this.message = 'Disciplina adicionada com sucesso!';
+          this.message = 'Subject Added!';
         },
         error => {
           console.log(error);

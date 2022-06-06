@@ -1,9 +1,9 @@
 <div style="width: 400px; margin: auto;">
   <div *ngIf="currentSubject" class="edit-form">
-    <h4>Disciplina</h4>
+    <h4>Subject</h4>
     <form>
       <div class="form-group">
-        <label for="title">Código da Disciplina</label>
+        <label for="title">Subject Code</label>
         <input
           type="text"
           class="form-control"
@@ -13,7 +13,7 @@
         />
       </div>
       <div class="form-group">
-        <label for="description">Nome da Disciplina</label>
+        <label for="description">Subject Name</label>
         <input
           type="text"
           class="form-control"
@@ -23,7 +23,7 @@
         />
       </div>
       <div class="form-group">
-        <label for="description">Carga Horária</label>
+        <label for="description">Credits</label>
         <input
           type="text"
           class="form-control"
@@ -36,7 +36,7 @@
     </form>
 
     <button class="m-3 btn btn-sm btn-danger" (click)="deleteSubject()">
-      Deletar
+      Delete
     </button>
 
     <button
@@ -44,7 +44,7 @@
       class="m-3 btn btn-sm btn-danger"
       (click)="updateSubject()"
     >
-      Atualizar
+      Update
     </button>
     <p>{{ message }}</p>
   </div>

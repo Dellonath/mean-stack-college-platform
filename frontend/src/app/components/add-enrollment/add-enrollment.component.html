@@ -2,7 +2,7 @@
   <div class="submit-form">
     <div *ngIf="!submitted">
       <div class="form-group">
-        <label for="title">Número de Matrícula</label>
+        <label for="title">Enrollment Number</label>
         <input
           type="text"
           class="form-control"
@@ -14,7 +14,7 @@
       </div>
 
       <div class="form-group">
-        <label for="description">Nome do Aluno</label>
+        <label for="description">Student Name</label>
         <input
           class="form-control"
           id="name"
@@ -25,7 +25,7 @@
       </div>
 
       <div class="form-group">
-        <label for="description">Disciplinas</label>
+        <label for="description">Subjects</label>
         <div *ngFor="let subject of subjects">
           <input 
           type="checkbox"
@@ -38,12 +38,12 @@
     
       <br>
 
-      <button (click)="saveEnrollment()" class="btn btn-success">Adicionar</button>
+      <button (click)="saveEnrollment()" class="btn btn-success">Add</button>
     </div>
 
     <div *ngIf="submitted">
-      <h4>Matricula adicionada!</h4>
-      <button class="btn btn-success" (click)="newEnrollment()">Adicionar</button>
+      <h4>Enrollment added!</h4>
+      <button class="btn btn-success" (click)="newEnrollment()">Add</button>
     </div>
   </div>
 </div>
