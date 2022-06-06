@@ -11,7 +11,7 @@
 </h3>
 
 <p>
-    This is a basic Web Application. The focus was to apply the knowledge acquired in my studies in the field of Web Development. Is a basic Web Application to manage College Subjects and Student enrollments, which I implemented and integrated some technologies of MEAN Stack.
+    This is a basic Web Application. The focus was to apply the knowledge acquired in my studies in the field of Web Development. Is a platform to manage College Subjects and Student enrollments, which I implemented and integrated some technologies of MEAN Stack.
 </p>
 
 <h2 align="center">
